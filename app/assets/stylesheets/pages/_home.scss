@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
-$bkg-clr: #D2CAC4;
-$prim-clr: #F1F4E3;
-$accent-clr: #00bfb2;
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+$bkg-clr: hsl(26, 13%, 80%);
+$prim-clr: #f0ebfa;
+$accent-clr: #ff8e63;
 
 * {
   margin: 0;
@@ -28,7 +29,7 @@ a {
   color: #CECECE;
   text-transform: uppercase;
   font-size: 12px;
-  font-family: 'Red Hat Mono', monospace;
+  font-family: 'Paytone One', sans-serif;
 }
 
 a img {
@@ -36,42 +37,23 @@ a img {
   margin: 10px 0 0 50px;
 }
 
-.navbar {
-  width: 100%;
-  height: 10%;
-  position: sticky;
-  background-color: white;
-}
-
-.navbar ul {
-  display: flex;
-  float: right;
-  list-style-type: none;
-  text-decoration: none;
-  margin: 15px 15px;
-}
-
-.navbar ul li {
-  padding: 0 15px 0 15px;
-}
-
 .right {
   background-color: $accent-clr;
   position: absolute;
   width: 55%;
-  height: 90%;
+  height: 100%;
   left: 45%;
   border-radius: 100% 0 0 0;
 }
 
 h1 {
-  font-family: 'Red Hat Mono', monospace;
-  color: #534935;
+  font-family: 'Paytone One', sans-serif;
+  color: black;
   position: absolute;
   top: 40%;
   left: 10%;
   transform: translate(-10%, -40%);
-  width: 350px;
+  width: 550px;
   font-size: 3rem;
 }
 
@@ -128,7 +110,7 @@ button:hover {
 .right ul li {
   margin: 8px;
   color: white;
-  font-family: 'Red Hat Mono', monospace;
+  font-family: 'Paytone One', sans-serif;
   transform: uppercase;
   font-size: 10px;
 }
