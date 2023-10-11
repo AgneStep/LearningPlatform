@@ -1,1 +1,35 @@
 // Specific CSS for your home-page
+.btn_all {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.btn_all:hover {
+  text-decoration: none;
+  background-color: darkblue;
+  transform: scale(1.1);
+  color: white;
+  font-weight: bold;
+}
+.home {
+  margin-top:15%;
+  text-align: center;
+  margin-left: 25%;
+  width: 50%;
+  padding: 10px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
