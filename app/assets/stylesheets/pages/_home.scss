@@ -1,35 +1,156 @@
-// Specific CSS for your home-page
-.btn_all {
-  background-color: darkblue;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 15px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: transform 0.2s;
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+$bkg-clr: hsl(26, 13%, 80%);
+$prim-clr: #f0ebfa;
+$accent-clr: #ff8e63;
+
+* {
+  margin: 0;
+  padding: 0;
+
 }
 
-.btn_all:hover {
+body {
+  background-color: $bkg-clr;
+}
+
+.page {
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  background-color: $prim-clr;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
   text-decoration: none;
-  background-color: darkblue;
-  transform: scale(1.1);
+  color: #CECECE;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+a img {
+  height: 2.3rem;
+  margin: 10px 0 0 50px;
+}
+
+.right {
+  background-color: $accent-clr;
+  position: absolute;
+  width: 55%;
+  height: 100%;
+  left: 45%;
+  border-radius: 100% 0 0 0;
+}
+
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+  width: 550px;
+  font-size: 3rem;
+}
+
+p {
+  font-family: 'Red Hat Mono', monospace;
+  color: #534935;
+  position: absolute;
+  top: 58%;
+  left: 7%;
+  transform: translate(-7%, -58%);
+  font-size: 12px;
+}
+
+button {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  transform: translate(-5%, -65%);
+  border-radius: 15px;
+  background-color: $accent-clr;
+  width: 125px;
+  height: 35px;
   color: white;
-  font-weight: bold;
+  border-style: none;
 }
-.home {
-  margin-top:15%;
-  text-align: center;
-  margin-left: 25%;
-  width: 50%;
-  padding: 10px;
+
+button:hover {
+  box-shadow: 0 5px 15px $accent-clr;
+  cursor: pointer;
 }
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+
+.right img {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  height: 40rem;
+  transform: translate(-25%, 15%);
+
+
 }
+
+.right ul {
+  display: flex;
+  float: right;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 15px 15px;
+  top: 50%;
+  left: 60%;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
+.right ul li {
+  margin: 8px;
+  color: white;
+  font-family: 'Paytone One', sans-serif;
+  transform: uppercase;
+  font-size: 10px;
+}
+
+
+
+
+// .btn_all {
+//   background-color: darkblue;
+//   border: none;
+//   color: white;
+//   padding: 15px 32px;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: 16px;
+//   margin: 15px;
+//   cursor: pointer;
+//   border-radius: 10px;
+//   transition: transform 0.2s;
+// }
+
+// .btn_all:hover {
+//   text-decoration: none;
+//   background-color: darkblue;
+//   transform: scale(1.1);
+//   color: white;
+//   font-weight: bold;
+// }
+
+// .home {
+//   margin-top: 15%;
+//   text-align: center;
+//   margin-left: 25%;
+//   width: 50%;
+//   padding: 10px;
+// }
+
+// .center {
+//   margin: auto;
+//   width: 50%;
+//   padding: 10px;
+// }
