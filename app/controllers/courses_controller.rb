@@ -7,6 +7,7 @@ class CoursesController < ApplicationController
       @course = Course.new
     end
 
+
     def create
       @course = course.new(course_params)
       @course.user = current_user
@@ -15,6 +16,9 @@ class CoursesController < ApplicationController
       else
         render :new, status: :unprocessable_entity
       end
+    end
+
+    def index
     end
 
     def edit
