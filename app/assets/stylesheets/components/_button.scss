@@ -1,0 +1,19 @@
+.home-btn {
+  border-radius: 15px;
+  background-color: $coral;
+  width: 125px;
+  height: 35px;
+  color: white;
+  border-style: none;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-size: medium;
+  margin-right: 20px;
+  font-weight: bold;
+
+}
+
+.home-btn:hover {
+  box-shadow: 0 5px 15px $coral;
+  cursor: pointer;
+}

@@ -1,36 +1,16 @@
 <div class="container">
   <div class="page">
-    <div class="left">
-      <h1>Welcome to LearningPlatform</h1>
-      <p>Learn how to have fun by learning</p>
-      <button>
-       <%= link_to "Sign In", new_user_session_path %>
-      </button>
-      <button>
-        <%= link_to "Sign Up", new_user_registration_path %>
-      </button>
-
-    </div>
+      <div class="home-text">
+        <h1>Welcome to LearningPlatform</h1>
+        <p>Learn how to have fun by learning</p>
+      </div>
+      <div class="buttons">
+        <%= link_to "Sign In", new_user_session_path, class: "home-btn" %>
+        <%= link_to "Sign Up", new_user_registration_path, class: "home-btn" %>
+      </div>
     <div class="right">
       <div class="img"><img src="/assets/homepage.png">
       </div>
-      <ul>
-        <li>Instagram</li>
-        <li>-</li>
-        <li>Facebook</li>
-        <li>-</li>
-        <li>Twitter</li>
-      </ul>
     </div>
-  </div>
-</div>
-
-
-<!--<div class = "home">
-  <h1>Welcome to LearningPlatform</h1>
-  <h2>Learn how to have fun by learning</h2>
-  <div class="center">
-    <%= link_to "Sign In", new_user_session_path,class:"btn_all" %>
-    <%= link_to "Sign Up", new_user_registration_path,class:"btn_all" %>
   </div>
 </div>
